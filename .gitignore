@@ -1,3 +1,13 @@
+/botpress/*
+
+# Allow specific directories and files
+!/botpress/data/
+!/botpress/data/bots/
+!/botpress/data/bots/gpt-bot/
+!/botpress/data/bots/gpt-bot/actions/
+!/botpress/data/bots/gpt-bot/actions/README.md
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
